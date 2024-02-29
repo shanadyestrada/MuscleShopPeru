@@ -21,12 +21,10 @@ ul li a {
     font-weight: bold;
 }
 .header-top {
-    background-color: #494949;
     color: #FFF;
 }
 .header-middle.sticky-header, .header-middle.sticky-header i {
-    background-color: #545456;
-    color: #FFF;
+    background-color: #FFF;
 }
 .top-notice {
     background-color: #2ca326;
@@ -34,24 +32,24 @@ ul li a {
 .fa-bars {
     color: #2ca326;
 }
-.header-bottom {
-    background-color:  #75d170;
-}
 .header-bottom.sticky-header {
-    background-color:  #38d430;
+    background-color:  #231F20;
 }
 .menu li a {
     color: #FFF;
 }
 .main-nav ul li.active a,
 .main-nav ul li:hover a {
-    color: #545456;
+    color: #38d430;
 }
 .menu .active {
+    color: #38d430;
+}
+.sub-ul li a ul li a {
     color: #545456;
 }
-.sub-ul li a {
-    color: #545456;
+.new-products-section h2 {
+    color: #FFF;
 }
 .section-title {
     font-size: 35px;
@@ -60,10 +58,7 @@ ul li a {
     font-size: 30px;
 }
 .testimonials-section {
-    margin: 0 15px;
-    border-radius: 20px;
-    background-color:  #86de7e;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color:  #38d430;
 }
 .testimonial {
     background-color: #FFF;
@@ -77,8 +72,11 @@ ul li a {
 blockquote::before {
     color: #2ca326;
 }
+.testimonials-section .section-title {
+    color: #FFF;
+}
 .testimonials-section h2 {
-    color: #2a5c28;
+    color: #fff;
 }
 .recetas a {
     background-color: #959150;
@@ -149,6 +147,9 @@ blockquote::before {
 }
 .sticky-navbar {
     background-color: #2ca326;
+}
+.popup {
+    font-size: 30px;
 }
 .popup b {
     color: #2a5c28;
