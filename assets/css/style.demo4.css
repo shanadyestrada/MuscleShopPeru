@@ -58,6 +58,7 @@ ul li a {
     font-size: 30px;
 }
 .testimonials-section {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     background-color:  #38d430;
 }
 .testimonial {
