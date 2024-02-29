@@ -58,8 +58,11 @@ ul li a {
     font-size: 30px;
 }
 .testimonials-section {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     background-color:  #38d430;
+    margin: 0 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
 }
 .testimonial {
     background-color: #FFF;
@@ -73,7 +76,7 @@ ul li a {
 blockquote::before {
     color: #2ca326;
 }
-.testimonials-section .section-title {
+.testimonials-section .section-title.heading-border {
     color: #FFF;
 }
 .testimonials-section h2 {
