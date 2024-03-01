@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Muscle Shop</title>
+    <title>Porto - Bootstrap eCommerce Template</title>
 
     <meta name="keywords" content="HTML5 Template" />
-    <meta name="description" content="Muscle Shop">
+    <meta name="description" content="Porto - Bootstrap eCommerce Template">
     <meta name="author" content="SW-THEMES">
 
     <!-- Favicon -->
@@ -18,10 +18,10 @@
     <script>
         WebFontConfig = {
             google: {
-                families: ['Open+Sans:300,400,600,700,800', 'Poppins:300,400,500,600,700,800', 'Oswald:300,400,500,600,700,800']
+                families: ['Open+Sans:300,400,600,700,800', 'Poppins:300,400,500,600,700', 'Shadows+Into+Light:400']
             }
         };
-        (function (d) {
+        (function(d) {
             var wf = d.createElement('script'),
                 s = d.scripts[0];
             wf.src = 'assets/js/webfont.js';
@@ -34,108 +34,160 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
     <!-- Main CSS File -->
-    <link rel="stylesheet" href="assets/css/demo4.min.css">
     <link rel="stylesheet" href="assets/css/style.min.css">
-    <link rel="stylesheet" href="assets/css/style.demo4.css">
     <link rel="stylesheet" type="text/css" href="assets/vendor/fontawesome-free/css/all.min.css">
 </head>
 
 <body>
     <div class="page-wrapper">
-        <!-- NOTICE -->
-        <div class="top-notice text-white d-lg-none">
+        <div class="top-notice bg-primary text-white">
             <div class="container text-center">
-                <h5 class="d-inline-block">¡3 cuotas sin interes con <b>DINERS, BBVA Y BCP</b>!</h5>
+                <h5 class="d-inline-block">Get Up to <b>40% OFF</b> New-Season Styles</h5>
+                <a href="category.html" class="category">MEN</a>
+                <a href="category.html" class="category ml-2 mr-3">WOMEN</a>
+                <small>* Limited time only.</small>
                 <button title="Close (Esc)" type="button" class="mfp-close">×</button>
             </div>
             <!-- End .container -->
         </div>
+        <!-- End .top-notice -->
 
-        <!-- HEADER -->
         <header class="header">
-            <!-- HEADER TOP -->
             <div class="header-top">
                 <div class="container">
-                    <div class="col-8 col-lg-4">
-                        <div class="header-left">
-                            <p id="message1" class="top-message text-uppercase">Envío gratis por compras mayores a S/200
-                            </p>
-                            <p id="message2" class="top-message text-uppercase" style="display: none;">Envío a nivel
-                                nacional</p>
-                        </div>
+                    <div class="header-left d-none d-sm-block">
+                        <p class="top-message text-uppercase">FREE Returns. Standard Shipping Orders $99+</p>
                     </div>
-                    <div class="col-4 col-lg-4 text-center">
-                        <div class="header-center d-sm-block">
-                            <p class="top-message text-uppercase wsp-nr">WhatsApp: 924 698 077</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 header-right">
-                        <div class="ml-0 ml-sm-auto w-sm-100">
-                            <div class="header-dropdown dropdown-expanded d-none d-lg-block">
-                                <p class="top-message text-uppercase">3 cuotas sin intereses con Diners, BBVA y BCP</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                    <!-- End .header-left -->
 
-            <!-- HEADER MIDDLE -->
+                    <div class="header-right header-dropdowns ml-0 ml-sm-auto w-sm-100">
+                        <div class="header-dropdown dropdown-expanded d-none d-lg-block">
+                            <a href="product.html#">Links</a>
+                            <div class="header-menu">
+                                <ul>
+                                    <li><a href="dashboard.html">My Account</a></li>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="blog.html">Blog</a></li>
+                                    <li><a href="wishlist.html">My Wishlist</a></li>
+                                    <li><a href="cart.html">Cart</a></li>
+                                    <li><a href="login.html" class="login-link">Log In</a></li>
+                                </ul>
+                            </div>
+                            <!-- End .header-menu -->
+                        </div>
+                        <!-- End .header-dropown -->
+
+                        <span class="separator"></span>
+
+                        <div class="header-dropdown">
+                            <a href="product.html#"><i class="flag-us flag"></i>ENG</a>
+                            <div class="header-menu">
+                                <ul>
+                                    <li><a href="product.html#"><i class="flag-us flag mr-2"></i>ENG</a>
+                                    </li>
+                                    <li><a href="product.html#"><i class="flag-fr flag mr-2"></i>FRA</a></li>
+                                </ul>
+                            </div>
+                            <!-- End .header-menu -->
+                        </div>
+                        <!-- End .header-dropown -->
+
+                        <div class="header-dropdown mr-auto mr-sm-3 mr-md-0">
+                            <a href="product.html#">USD</a>
+                            <div class="header-menu">
+                                <ul>
+                                    <li><a href="product.html#">EUR</a></li>
+                                    <li><a href="product.html#">USD</a></li>
+                                </ul>
+                            </div>
+                            <!-- End .header-menu -->
+                        </div>
+                        <!-- End .header-dropown -->
+
+                        <span class="separator"></span>
+
+                        <div class="social-icons">
+                            <a href="product.html#" class="social-icon social-facebook icon-facebook" target="_blank"></a>
+                            <a href="product.html#" class="social-icon social-twitter icon-twitter" target="_blank"></a>
+                            <a href="product.html#" class="social-icon social-instagram icon-instagram" target="_blank"></a>
+                        </div>
+                        <!-- End .social-icons -->
+                    </div>
+                    <!-- End .header-right -->
+                </div>
+                <!-- End .container -->
+            </div>
+            <!-- End .header-top -->
+
             <div class="header-middle sticky-header" data-sticky-options="{'mobile': true}">
                 <div class="container">
                     <div class="header-left col-lg-2 w-auto pl-0">
                         <button class="mobile-menu-toggler text-primary mr-2" type="button">
-                            <i class="fas fa-bars"></i>
-                        </button>
+							<i class="fas fa-bars"></i>
+						</button>
                         <a href="demo4.html" class="logo">
-                            <img src="assets/images/muscle-shop.png" width="150" height="64" alt="Porto Logo">
+                            <img src="assets/images/logo.png" width="111" height="44" alt="Porto Logo">
                         </a>
                     </div>
                     <!-- End .header-left -->
 
                     <div class="header-right w-lg-max">
-                        <div
-                            class="header-icon header-search header-search-inline header-search-category w-lg-max text-right mt-0">
-                            <a href="demo4.html#" class="search-toggle" role="button"><i class="icon-search-3"></i></a>
-                            <form action="demo4.html#" method="get">
+                        <div class="header-icon header-search header-search-inline header-search-category w-lg-max text-right mt-0">
+                            <a href="product.html#" class="search-toggle" role="button"><i class="icon-search-3"></i></a>
+                            <form action="product.html#" method="get">
                                 <div class="header-search-wrapper">
-                                    <input type="search" class="form-control" name="q" id="q"
-                                        placeholder="Buscar productos..." required>
-                                    <button class="btn icon-magnifier p-0" title="search" type="submit"></button>
+                                    <input type="search" class="form-control" name="q" id="q" placeholder="Search..." required>
+                                    <div class="select-custom">
+                                        <select id="cat" name="cat">
+											<option value="">All Categories</option>
+											<option value="4">Fashion</option>
+											<option value="12">- Women</option>
+											<option value="13">- Men</option>
+											<option value="66">- Jewellery</option>
+											<option value="67">- Kids Fashion</option>
+											<option value="5">Electronics</option>
+											<option value="21">- Smart TVs</option>
+											<option value="22">- Cameras</option>
+											<option value="63">- Games</option>
+											<option value="7">Home &amp; Garden</option>
+											<option value="11">Motors</option>
+											<option value="31">- Cars and Trucks</option>
+											<option value="32">- Motorcycles &amp; Powersports</option>
+											<option value="33">- Parts &amp; Accessories</option>
+											<option value="34">- Boats</option>
+											<option value="57">- Auto Tools &amp; Supplies</option>
+										</select>
+                                    </div>
+                                    <!-- End .select-custom -->
+                                    <button class="btn icon-magnifier p-0" type="submit"></button>
                                 </div>
                                 <!-- End .header-search-wrapper -->
                             </form>
                         </div>
                         <!-- End .header-search -->
 
-                        <div class="header-contact d-none d-lg-flex pl-2 pr-4 mr-4"
-                            style="display: flex; flex-direction: column; align-items: center;">
-                            <img alt="phone" src="assets/images/gift.png" width="30" height="30" class="pb-2">
-                            <span><a href="#">Ofertas</a></span>
+                        <div class="header-contact d-none d-lg-flex pl-4 pr-4">
+                            <img alt="phone" src="assets/images/phone.png" width="30" height="30" class="pb-1">
+                            <h6><span>Call us now</span><a href="tel:#" class="text-dark font1">+123 5678 890</a></h6>
                         </div>
 
-                        <p class="d-none d-lg-block"><a href="#">Registrarse</a><span> / </span><a href="#">Acceder</a>
-                        </p>
+                        <a href="login.html" class="header-icon" title="login"><i class="icon-user-2"></i></a>
 
-                        <a href="login.html" class="header-icon pl-lg-4" title="login"><i class="icon-user-2"></i></a>
-
-                        <a href="#" class="d-lg-none"><img alt="phone" src="assets/images/gift.png" width="40"
-                                height="40" class="pr-4"></a>
+                        <a href="wishlist.html" class="header-icon" title="wishlist"><i class="icon-wishlist-2"></i></a>
 
                         <div class="dropdown cart-dropdown">
-                            <a href="demo4.html#" title="Cart" class="dropdown-toggle dropdown-arrow cart-toggle"
-                                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                                data-display="static">
+                            <a href="product.html#" title="Cart" class="dropdown-toggle dropdown-arrow cart-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static">
                                 <i class="minicart-icon"></i>
-                                <span class="cart-count badge-circle" style="background-color: #2ca326;">3</span>
+                                <span class="cart-count badge-circle">3</span>
                             </a>
 
                             <div class="cart-overlay"></div>
 
-                            <div class="dropdown-menu mobile-cart p-0">
-                                <a href="demo4.html#" title="Close (Esc)" class="btn-close"></a>
+                            <div class="dropdown-menu mobile-cart">
+                                <a href="product.html#" title="Close (Esc)" class="btn-close">×</a>
 
                                 <div class="dropdownmenu-wrapper custom-scrollbar">
-                                    <div class="dropdown-cart-header">Mi Carrito</div>
+                                    <div class="dropdown-cart-header">Shopping Cart</div>
                                     <!-- End .dropdown-cart-header -->
 
                                     <div class="dropdown-cart-products">
@@ -146,19 +198,17 @@
                                                 </h4>
 
                                                 <span class="cart-product-info">
-                                                    <span class="cart-product-qty">1</span> × $99.00
+													<span class="cart-product-qty">1</span> × $99.00
                                                 </span>
                                             </div>
                                             <!-- End .product-details -->
 
                                             <figure class="product-image-container">
                                                 <a href="product.html" class="product-image">
-                                                    <img src="assets/images/muscle-obj.jpg" alt="product" width="80"
-                                                        height="80">
+                                                    <img src="assets/images/products/product-1.jpg" alt="product" width="80" height="80">
                                                 </a>
 
-                                                <a href="demo4.html#" class="btn-remove"
-                                                    title="Remove Product"><span>×</span></a>
+                                                <a href="product.html#" class="btn-remove" title="Remove Product"><span>×</span></a>
                                             </figure>
                                         </div>
                                         <!-- End .product -->
@@ -170,19 +220,17 @@
                                                 </h4>
 
                                                 <span class="cart-product-info">
-                                                    <span class="cart-product-qty">1</span> × $35.00
+													<span class="cart-product-qty">1</span> × $35.00
                                                 </span>
                                             </div>
                                             <!-- End .product-details -->
 
                                             <figure class="product-image-container">
                                                 <a href="product.html" class="product-image">
-                                                    <img src="assets/images/muscle-obj2.png" alt="product" width="80"
-                                                        height="80">
+                                                    <img src="assets/images/products/product-2.jpg" alt="product" width="80" height="80">
                                                 </a>
 
-                                                <a href="demo4.html#" class="btn-remove"
-                                                    title="Remove Product"><span>×</span></a>
+                                                <a href="product.html#" class="btn-remove" title="Remove Product"><span>×</span></a>
                                             </figure>
                                         </div>
                                         <!-- End .product -->
@@ -194,18 +242,16 @@
                                                 </h4>
 
                                                 <span class="cart-product-info">
-                                                    <span class="cart-product-qty">1</span> × $35.00
+													<span class="cart-product-qty">1</span> × $35.00
                                                 </span>
                                             </div>
                                             <!-- End .product-details -->
 
                                             <figure class="product-image-container">
                                                 <a href="product.html" class="product-image">
-                                                    <img src="assets/images/muscle-obj2.png" alt="product" width="80"
-                                                        height="80">
+                                                    <img src="assets/images/products/product-3.jpg" alt="product" width="80" height="80">
                                                 </a>
-                                                <a href="demo4.html#" class="btn-remove"
-                                                    title="Remove Product"><span>×</span></a>
+                                                <a href="product.html#" class="btn-remove" title="Remove Product"><span>×</span></a>
                                             </figure>
                                         </div>
                                         <!-- End .product -->
@@ -220,8 +266,9 @@
                                     <!-- End .dropdown-cart-total -->
 
                                     <div class="dropdown-cart-action">
-                                        <a href="cart.html" class="btn btn-gray btn-block view-cart">Ver Carrito</a>
-                                        <a href="checkout.html" class="btn btn-dark btn-block">Comprar</a>
+                                        <a href="cart.html" class="btn btn-gray btn-block view-cart">View
+											Cart</a>
+                                        <a href="checkout.html" class="btn btn-dark btn-block">Checkout</a>
                                     </div>
                                     <!-- End .dropdown-cart-total -->
                                 </div>
@@ -235,146 +282,176 @@
                 </div>
                 <!-- End .container -->
             </div>
+            <!-- End .header-middle -->
 
-            <!-- HEADER BOTTOM-->
             <div class="header-bottom sticky-header d-none d-lg-block" data-sticky-options="{'mobile': false}">
                 <div class="container">
                     <nav class="main-nav w-100">
                         <ul class="menu">
                             <li>
-                                <a href="demo4.html">Inicio</a>
+                                <a href="demo4.html">Home</a>
                             </li>
-                            <li class="">
-                                <a href="category.html">Por Producto</a>
-                                <ul class="sub-ul">
-                                    <li><a href="demo4.html#">Proteínas</a>
-                                        <ul>
-                                            <li><a href="category.html">Aisladas</a></li>
-                                            <li><a href="category-banner-boxed-slider.html">WHEY</a>
-                                            </li>
-                                            <li><a href="category-banner-boxed-image.html">HIDROLIZADA</a>
-                                            </li>
-                                            <li><a href="category.html">CONCENTRADA</a></li>
-                                            <li><a href="category-sidebar-right.html">CASEÍNA</a></li>
-                                            <li><a href="category-off-canvas.html">VEGANA</a></li>
-                                            <li><a href="category-horizontal-filter1.html">GANADORES</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="demo4.html#">AMINOÁCIDOS</a>
-                                        <ul>
-                                            <li><a href="category.html">BCAAA</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="demo4.html#">CREATINAS</a>
-                                        <ul>
-                                            <li><a href="category.html">EJM1</a></li>
-                                            <li><a href="category.html">EJM2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="demo4.html#">GLUTAMINAS</a>
-                                        <ul>
-                                            <li><a href="category.html">EJM1</a></li>
-                                            <li><a href="category.html">EJM2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="demo4.html#">PRE-WORKOUTS</a>
-                                        <ul>
-                                            <li><a href="category.html">EJM1</a></li>
-                                            <li><a href="category.html">EJM2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="demo4.html#">COLÁGENOS</a>
-                                        <ul>
-                                            <li><a href="category.html">EJM1</a></li>
-                                            <li><a href="category.html">EJM2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="demo4.html#">REEMPLAZADORES DE COMIDA</a>
-                                        <ul>
-                                            <li><a href="category.html">EJM1</a></li>
-                                            <li><a href="category.html">EJM2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="demo4.html#">FOOD & SNACKS</a>
-                                        <ul>
-                                            <li><a href="category.html">BARRITAS</a></li>
-                                            <li><a href="category.html">GALLETAS</a></li>
-                                            <li><a href="category.html">BROWNIE</a></li>
-                                            <li><a href="category.html">SHAKES DE PROTEÍNA</a></li>
-                                            <li><a href="category.html">SALSAS</a></li>
-                                            <li><a href="category.html">PROTEIN CREAM</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="demo4.html#">REHIDRATANTES</a>
-                                        <ul>
-                                            <li><a href="category.html">EJM1</a></li>
-                                            <li><a href="category.html">EJM2</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
+                            <li>
+                                <a href="category.html">Categories</a>
+                                <div class="megamenu megamenu-fixed-width megamenu-3cols">
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <a href="product.html#" class="nolink">VARIATION 1</a>
+                                            <ul class="submenu">
+                                                <li><a href="category.html">Fullwidth Banner</a></li>
+                                                <li><a href="category-banner-boxed-slider.html">Boxed Slider Banner</a>
+                                                </li>
+                                                <li><a href="category-banner-boxed-image.html">Boxed Image Banner</a>
+                                                </li>
+                                                <li><a href="category.html">Left Sidebar</a></li>
+                                                <li><a href="category-sidebar-right.html">Right Sidebar</a></li>
+                                                <li><a href="category-off-canvas.html">Off Canvas Filter</a></li>
+                                                <li><a href="category-horizontal-filter1.html">Horizontal Filter1</a>
+                                                </li>
+                                                <li><a href="category-horizontal-filter2.html">Horizontal Filter2</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <a href="product.html#" class="nolink">VARIATION 2</a>
+                                            <ul class="submenu">
+                                                <li><a href="category-list.html">List Types</a></li>
+                                                <li><a href="category-infinite-scroll.html">Ajax Infinite Scroll</a>
+                                                </li>
+                                                <li><a href="category.html">3 Columns Products</a></li>
+                                                <li><a href="category-4col.html">4 Columns Products</a></li>
+                                                <li><a href="category-5col.html">5 Columns Products</a></li>
+                                                <li><a href="category-6col.html">6 Columns Products</a></li>
+                                                <li><a href="category-7col.html">7 Columns Products</a></li>
+                                                <li><a href="category-8col.html">8 Columns Products</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-4 p-0">
+                                            <div class="menu-banner">
+                                                <figure>
+                                                    <img src="assets/images/menu-banner.jpg" width="192" height="313" alt="Menu banner">
+                                                </figure>
+                                                <div class="banner-content">
+                                                    <h4>
+                                                        <span class="">UP TO</span><br />
+                                                        <b class="">50%</b>
+                                                        <i>OFF</i>
+                                                    </h4>
+                                                    <a href="category.html" class="btn btn-sm btn-dark">SHOP NOW</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End .megamenu -->
+                            </li>
+                            <li class="active">
+                                <a href="product.html">Products</a>
+                                <div class="megamenu megamenu-fixed-width">
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <a href="product.html#" class="nolink">PRODUCT PAGES</a>
+                                            <ul class="submenu">
+                                                <li><a href="product.html">SIMPLE PRODUCT</a></li>
+                                                <li><a href="product-variable.html">VARIABLE PRODUCT</a></li>
+                                                <li><a href="product.html">SALE PRODUCT</a></li>
+                                                <li><a href="product.html">FEATURED & ON SALE</a></li>
+                                                <li><a href="product-custom-tab.html">WITH CUSTOM TAB</a></li>
+                                                <li><a href="product-sidebar-left.html">WITH LEFT SIDEBAR</a></li>
+                                                <li><a href="product-sidebar-right.html">WITH RIGHT SIDEBAR</a></li>
+                                                <li><a href="product-addcart-sticky.html">ADD CART STICKY</a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- End .col-lg-4 -->
+
+                                        <div class="col-lg-4">
+                                            <a href="product.html#" class="nolink">PRODUCT LAYOUTS</a>
+                                            <ul class="submenu">
+                                                <li><a href="product-extended-layout.html">EXTENDED LAYOUT</a></li>
+                                                <li><a href="product-grid-layout.html">GRID IMAGE</a></li>
+                                                <li><a href="product-full-width.html">FULL WIDTH LAYOUT</a></li>
+                                                <li><a href="product-sticky-info.html">STICKY INFO</a></li>
+                                                <li><a href="product-sticky-both.html">LEFT & RIGHT STICKY</a></li>
+                                                <li><a href="product-transparent-image.html">TRANSPARENT IMAGE</a></li>
+                                                <li><a href="product-center-vertical.html">CENTER VERTICAL</a></li>
+                                                <li><a href="product.html#">BUILD YOUR OWN</a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- End .col-lg-4 -->
+
+                                        <div class="col-lg-4 p-0">
+                                            <div class="menu-banner menu-banner-2">
+                                                <figure>
+                                                    <img src="assets/images/menu-banner-1.jpg" width="182" height="317" alt="Menu banner" class="product-promo">
+                                                </figure>
+                                                <i>OFF</i>
+                                                <div class="banner-content">
+                                                    <h4>
+                                                        <span class="">UP TO</span><br />
+                                                        <b class="">50%</b>
+                                                    </h4>
+                                                </div>
+                                                <a href="category.html" class="btn btn-sm btn-dark">SHOP NOW</a>
+                                            </div>
+                                        </div>
+                                        <!-- End .col-lg-4 -->
+                                    </div>
+                                    <!-- End .row -->
+                                </div>
                                 <!-- End .megamenu -->
                             </li>
                             <li>
-                                <a href="product.html">POR OBJETIVOS</a>
-                                <ul class="sub-ul">
-                                    <li><a href="category-list.html">PREPARARSE ANTES DE ENTRENAR</a></li>
-                                    <li><a href="category-infinite-scroll.html">DURANTE EL ENTRENAMIENTO</a>
-                                    </li>
-                                    <li><a href="category.html">RECUPERACIÓN</a></li>
-                                    <li><a href="category-4col.html">GANANCIA DE PESO</a></li>
-                                    <li><a href="category-5col.html">FUERZA & TONIFICACIÓN</a></li>
-                                    <li><a href="category-6col.html">AUMENTO DE CONSUMO DE PROTEÍNA</a></li>
-                                    <li><a href="category-7col.html">AUMENTAR ENERGÍA</a></li>
-                                    <li><a href="category-8col.html">MEJORAR RENDIMIENTO</a></li>
-                                    <li><a href="category-8col.html">SALUD & BIENESTAR</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="demo4.html#">POR MARCA</a>
-                                <ul class="sub-ul">
-                                    <li><a href="wishlist.html">APPLIED NUTRITION</a></li>
-                                    <li><a href="cart.html">KEVIN LEVRONE</a></li>
-                                    <li><a href="checkout.html">BEAUTY GLOW</a></li>
-                                    <li><a href="dashboard.html">BIOTECH USA</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="demo4.html#">LIFESTYLE</a>
-                                <ul class="sub-ul">
-                                    <li><a href="demo4.html#">ROPA</a>
+                                <a href="product.html#">Pages</a>
+                                <ul>
+                                    <li><a href="wishlist.html">Wishlist</a></li>
+                                    <li><a href="cart.html">Shopping Cart</a></li>
+                                    <li><a href="checkout.html">Checkout</a></li>
+                                    <li><a href="dashboard.html">Dashboard</a></li>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="product.html#">Blog</a>
                                         <ul>
-                                            <li><a href="category.html">MUJER</a></li>
-                                            <li><a href="category.html">HOMBRE</a></li>
+                                            <li><a href="blog.html">Blog</a></li>
+                                            <li><a href="single.html">Blog Post</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="demo4.html#">ACCESORIOS</a>
-                                        <ul>
-                                            <li><a href="category.html">EJM1</a></li>
-                                            <li><a href="category.html">EJM2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="demo4.html#">GIMNASIO</a>
-                                        <ul>
-                                            <li><a href="category.html">EJM1</a></li>
-                                            <li><a href="category.html">EJM2</a></li>
-                                        </ul>
-                                    </li>
+                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="login.html">Login</a></li>
+                                    <li><a href="forgot-password.html">Forgot Password</a></li>
                                 </ul>
                             </li>
+                            <li><a href="blog.html">Blog</a></li>
                             <li>
-                                <a href="demo4.html">BLOG</a>
+                                <a href="product.html#">Elements</a>
+                                <ul class="custom-scrollbar">
+                                    <li><a href="element-accordions.html">Accordion</a></li>
+                                    <li><a href="element-alerts.html">Alerts</a></li>
+                                    <li><a href="element-animations.html">Animations</a></li>
+                                    <li><a href="element-banners.html">Banners</a></li>
+                                    <li><a href="element-buttons.html">Buttons</a></li>
+                                    <li><a href="element-call-to-action.html">Call to Action</a></li>
+                                    <li><a href="element-countdown.html">Count Down</a></li>
+                                    <li><a href="element-counters.html">Counters</a></li>
+                                    <li><a href="element-headings.html">Headings</a></li>
+                                    <li><a href="element-icons.html">Icons</a></li>
+                                    <li><a href="element-info-box.html">Info box</a></li>
+                                    <li><a href="element-posts.html">Posts</a></li>
+                                    <li><a href="element-products.html">Products</a></li>
+                                    <li><a href="element-product-categories.html">Product Categories</a></li>
+                                    <li><a href="element-tabs.html">Tabs</a></li>
+                                    <li><a href="element-testimonial.html">Testimonials</a></li>
+                                </ul>
                             </li>
-                            <li>
-                                <a href="demo4.html">CONTÁCTANOS</a>
-                            </li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li class="float-right"><a href="https://1.envato.market/DdLk5" class="pl-5" target="_blank">Buy Porto!</a></li>
+                            <li class="float-right"><a href="product.html#" class="pl-5">Special Offer!</a></li>
                         </ul>
                     </nav>
                 </div>
                 <!-- End .container -->
             </div>
-
+            <!-- End .header-bottom -->
         </header>
+        <!-- End .header -->
 
         <main class="main">
             <div class="container">
@@ -404,62 +481,42 @@
 
                                 <div class="product-single-carousel owl-carousel owl-theme show-nav-hover">
                                     <div class="product-item">
-                                        <img class="product-single-image"
-                                            src="assets/images/products/zoom/product-1-big.jpg"
-                                            data-zoom-image="assets/images/products/zoom/product-1-big.jpg" width="468"
-                                            height="468" alt="product" />
+                                        <img class="product-single-image" src="assets/images/products/zoom/product-1-big.jpg" data-zoom-image="assets/images/products/zoom/product-1-big.jpg" width="468" height="468" alt="product" />
                                     </div>
                                     <div class="product-item">
-                                        <img class="product-single-image"
-                                            src="assets/images/products/zoom/product-2-big.jpg"
-                                            data-zoom-image="assets/images/products/zoom/product-2-big.jpg" width="468"
-                                            height="468" alt="product" />
+                                        <img class="product-single-image" src="assets/images/products/zoom/product-2-big.jpg" data-zoom-image="assets/images/products/zoom/product-2-big.jpg" width="468" height="468" alt="product" />
                                     </div>
                                     <div class="product-item">
-                                        <img class="product-single-image"
-                                            src="assets/images/products/zoom/product-3-big.jpg"
-                                            data-zoom-image="assets/images/products/zoom/product-3-big.jpg" width="468"
-                                            height="468" alt="product" />
+                                        <img class="product-single-image" src="assets/images/products/zoom/product-3-big.jpg" data-zoom-image="assets/images/products/zoom/product-3-big.jpg" width="468" height="468" alt="product" />
                                     </div>
                                     <div class="product-item">
-                                        <img class="product-single-image"
-                                            src="assets/images/products/zoom/product-4-big.jpg"
-                                            data-zoom-image="assets/images/products/zoom/product-4-big.jpg" width="468"
-                                            height="468" alt="product" />
+                                        <img class="product-single-image" src="assets/images/products/zoom/product-4-big.jpg" data-zoom-image="assets/images/products/zoom/product-4-big.jpg" width="468" height="468" alt="product" />
                                     </div>
                                     <div class="product-item">
-                                        <img class="product-single-image"
-                                            src="assets/images/products/zoom/product-5-big.jpg"
-                                            data-zoom-image="assets/images/products/zoom/product-5-big.jpg" width="468"
-                                            height="468" alt="product" />
+                                        <img class="product-single-image" src="assets/images/products/zoom/product-5-big.jpg" data-zoom-image="assets/images/products/zoom/product-5-big.jpg" width="468" height="468" alt="product" />
                                     </div>
                                 </div>
                                 <!-- End .product-single-carousel -->
                                 <span class="prod-full-screen">
-                                    <i class="icon-plus"></i>
-                                </span>
+									<i class="icon-plus"></i>
+								</span>
                             </div>
 
                             <div class="prod-thumbnail owl-dots">
                                 <div class="owl-dot">
-                                    <img src="assets/images/products/zoom/product-1.jpg" width="110" height="110"
-                                        alt="product-thumbnail" />
+                                    <img src="assets/images/products/zoom/product-1.jpg" width="110" height="110" alt="product-thumbnail" />
                                 </div>
                                 <div class="owl-dot">
-                                    <img src="assets/images/products/zoom/product-2.jpg" width="110" height="110"
-                                        alt="product-thumbnail" />
+                                    <img src="assets/images/products/zoom/product-2.jpg" width="110" height="110" alt="product-thumbnail" />
                                 </div>
                                 <div class="owl-dot">
-                                    <img src="assets/images/products/zoom/product-3.jpg" width="110" height="110"
-                                        alt="product-thumbnail" />
+                                    <img src="assets/images/products/zoom/product-3.jpg" width="110" height="110" alt="product-thumbnail" />
                                 </div>
                                 <div class="owl-dot">
-                                    <img src="assets/images/products/zoom/product-4.jpg" width="110" height="110"
-                                        alt="product-thumbnail" />
+                                    <img src="assets/images/products/zoom/product-4.jpg" width="110" height="110" alt="product-thumbnail" />
                                 </div>
                                 <div class="owl-dot">
-                                    <img src="assets/images/products/zoom/product-5.jpg" width="110" height="110"
-                                        alt="product-thumbnail" />
+                                    <img src="assets/images/products/zoom/product-5.jpg" width="110" height="110" alt="product-thumbnail" />
                                 </div>
                             </div>
                         </div>
@@ -474,13 +531,13 @@
                                         <span class="product-link"></span>
 
                                         <span class="product-popup">
-                                            <span class="box-content">
-                                                <img alt="product" width="150" height="150"
-                                                    src="assets/images/products/product-3.jpg"
-                                                    style="padding-top: 0px;">
+											<span class="box-content">
+												<img alt="product" width="150" height="150"
+													src="assets/images/products/product-3.jpg"
+													style="padding-top: 0px;">
 
-                                                <span>Circled Ultimate 3D Speaker</span>
-                                            </span>
+												<span>Circled Ultimate 3D Speaker</span>
+                                        </span>
                                         </span>
                                     </a>
                                 </div>
@@ -490,13 +547,13 @@
                                         <span class="product-link"></span>
 
                                         <span class="product-popup">
-                                            <span class="box-content">
-                                                <img alt="product" width="150" height="150"
-                                                    src="assets/images/products/product-4.jpg"
-                                                    style="padding-top: 0px;">
+											<span class="box-content">
+												<img alt="product" width="150" height="150"
+													src="assets/images/products/product-4.jpg"
+													style="padding-top: 0px;">
 
-                                                <span>Blue Backpack for the Young</span>
-                                            </span>
+												<span>Blue Backpack for the Young</span>
+                                        </span>
                                         </span>
                                     </a>
                                 </div>
@@ -524,10 +581,7 @@
 
                             <div class="product-desc">
                                 <p>
-                                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
-                                    egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet,
-                                    ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
-                                    Mauris
+                                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris
                                     placerat eleifend leo.
                                 </p>
                             </div>
@@ -540,8 +594,7 @@
                                 </li>
 
                                 <li>
-                                    CATEGORY: <strong><a href="product.html#"
-                                            class="product-category">SHOES</a></strong>
+                                    CATEGORY: <strong><a href="product.html#" class="product-category">SHOES</a></strong>
                                 </li>
 
                                 <li>
@@ -557,7 +610,7 @@
                                 <!-- End .product-single-qty -->
 
                                 <a href="javascript:;" class="btn btn-dark add-cart mr-2" title="Add to Cart">Add to
-                                    Cart</a>
+									Cart</a>
 
                                 <a href="cart.html" class="btn btn-gray view-cart d-none">View cart</a>
                             </div>
@@ -569,22 +622,17 @@
                                 <label class="sr-only">Share:</label>
 
                                 <div class="social-icons mr-2">
-                                    <a href="product.html#" class="social-icon social-facebook icon-facebook"
-                                        target="_blank" title="Facebook"></a>
-                                    <a href="product.html#" class="social-icon social-twitter icon-twitter"
-                                        target="_blank" title="Twitter"></a>
-                                    <a href="product.html#" class="social-icon social-linkedin fab fa-linkedin-in"
-                                        target="_blank" title="Linkedin"></a>
-                                    <a href="product.html#" class="social-icon social-gplus fab fa-google-plus-g"
-                                        target="_blank" title="Google +"></a>
-                                    <a href="product.html#" class="social-icon social-mail icon-mail-alt"
-                                        target="_blank" title="Mail"></a>
+                                    <a href="product.html#" class="social-icon social-facebook icon-facebook" target="_blank" title="Facebook"></a>
+                                    <a href="product.html#" class="social-icon social-twitter icon-twitter" target="_blank" title="Twitter"></a>
+                                    <a href="product.html#" class="social-icon social-linkedin fab fa-linkedin-in" target="_blank" title="Linkedin"></a>
+                                    <a href="product.html#" class="social-icon social-gplus fab fa-google-plus-g" target="_blank" title="Google +"></a>
+                                    <a href="product.html#" class="social-icon social-mail icon-mail-alt" target="_blank" title="Mail"></a>
                                 </div>
                                 <!-- End .social-icons -->
 
                                 <a href="wishlist.html" class="btn-icon-wish add-wishlist" title="Add to Wishlist"><i
-                                        class="icon-wishlist-2"></i><span>Add to
-                                        Wishlist</span></a>
+										class="icon-wishlist-2"></i><span>Add to
+										Wishlist</span></a>
                             </div>
                             <!-- End .product single-share -->
                         </div>
@@ -597,41 +645,28 @@
                 <div class="product-single-tabs">
                     <ul class="nav nav-tabs" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="product-tab-desc" data-toggle="tab"
-                                href="product.html#product-desc-content" role="tab" aria-controls="product-desc-content"
-                                aria-selected="true">Description</a>
+                            <a class="nav-link active" id="product-tab-desc" data-toggle="tab" href="product.html#product-desc-content" role="tab" aria-controls="product-desc-content" aria-selected="true">Description</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" id="product-tab-size" data-toggle="tab"
-                                href="product.html#product-size-content" role="tab" aria-controls="product-size-content"
-                                aria-selected="true">Size Guide</a>
+                            <a class="nav-link" id="product-tab-size" data-toggle="tab" href="product.html#product-size-content" role="tab" aria-controls="product-size-content" aria-selected="true">Size Guide</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" id="product-tab-tags" data-toggle="tab"
-                                href="product.html#product-tags-content" role="tab" aria-controls="product-tags-content"
-                                aria-selected="false">Additional
-                                Information</a>
+                            <a class="nav-link" id="product-tab-tags" data-toggle="tab" href="product.html#product-tags-content" role="tab" aria-controls="product-tags-content" aria-selected="false">Additional
+								Information</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" id="product-tab-reviews" data-toggle="tab"
-                                href="product.html#product-reviews-content" role="tab"
-                                aria-controls="product-reviews-content" aria-selected="false">Reviews (1)</a>
+                            <a class="nav-link" id="product-tab-reviews" data-toggle="tab" href="product.html#product-reviews-content" role="tab" aria-controls="product-reviews-content" aria-selected="false">Reviews (1)</a>
                         </li>
                     </ul>
 
                     <div class="tab-content">
-                        <div class="tab-pane fade show active" id="product-desc-content" role="tabpanel"
-                            aria-labelledby="product-tab-desc">
+                        <div class="tab-pane fade show active" id="product-desc-content" role="tabpanel" aria-labelledby="product-tab-desc">
                             <div class="product-desc-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, nostrud ipsum
-                                    consectetur sed do, quis nostrud exercitation ullamco laboris
-                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                                    occaecat.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, nostrud ipsum consectetur sed do, quis nostrud exercitation ullamco laboris
+                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.</p>
                                 <ul>
                                     <li>Any Product types that You want - Simple, Configurable
                                     </li>
@@ -640,21 +675,17 @@
                                     <li>Inventory Management with Backordered items
                                     </li>
                                 </ul>
-                                <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat. </p>
+                                <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                             </div>
                             <!-- End .product-desc-content -->
                         </div>
                         <!-- End .tab-pane -->
 
-                        <div class="tab-pane fade" id="product-size-content" role="tabpanel"
-                            aria-labelledby="product-tab-size">
+                        <div class="tab-pane fade" id="product-size-content" role="tabpanel" aria-labelledby="product-tab-size">
                             <div class="product-size-content">
                                 <div class="row">
                                     <div class="col-md-4">
-                                        <img src="assets/images/products/single/body-shape.png" alt="body shape"
-                                            width="217" height="398">
+                                        <img src="assets/images/products/single/body-shape.png" alt="body shape" width="217" height="398">
                                     </div>
                                     <!-- End .col-md-4 -->
 
@@ -715,8 +746,7 @@
                         </div>
                         <!-- End .tab-pane -->
 
-                        <div class="tab-pane fade" id="product-tags-content" role="tabpanel"
-                            aria-labelledby="product-tab-tags">
+                        <div class="tab-pane fade" id="product-tags-content" role="tabpanel" aria-labelledby="product-tab-tags">
                             <table class="table table-striped mt-2">
                                 <tbody>
                                     <tr>
@@ -743,16 +773,14 @@
                         </div>
                         <!-- End .tab-pane -->
 
-                        <div class="tab-pane fade" id="product-reviews-content" role="tabpanel"
-                            aria-labelledby="product-tab-reviews">
+                        <div class="tab-pane fade" id="product-reviews-content" role="tabpanel" aria-labelledby="product-tab-reviews">
                             <div class="product-reviews-content">
                                 <h3 class="reviews-title">1 review for Men Black Sports Shoes</h3>
 
                                 <div class="comment-list">
                                     <div class="comments">
                                         <figure class="img-thumbnail">
-                                            <img src="assets/images/blog/author.jpg" alt="author" width="80"
-                                                height="80">
+                                            <img src="assets/images/blog/author.jpg" alt="author" width="80" height="80">
                                         </figure>
 
                                         <div class="comment-block">
@@ -769,8 +797,8 @@
                                                 </div>
 
                                                 <span class="comment-by">
-                                                    <strong>Joe Doe</strong> – April 12, 2018
-                                                </span>
+													<strong>Joe Doe</strong> – April 12, 2018
+												</span>
                                             </div>
 
                                             <div class="comment-content">
@@ -789,21 +817,21 @@
                                         <div class="rating-form">
                                             <label for="rating">Your rating <span class="required">*</span></label>
                                             <span class="rating-stars">
-                                                <a class="star-1" href="product.html#">1</a>
-                                                <a class="star-2" href="product.html#">2</a>
-                                                <a class="star-3" href="product.html#">3</a>
-                                                <a class="star-4" href="product.html#">4</a>
-                                                <a class="star-5" href="product.html#">5</a>
-                                            </span>
+												<a class="star-1" href="product.html#">1</a>
+												<a class="star-2" href="product.html#">2</a>
+												<a class="star-3" href="product.html#">3</a>
+												<a class="star-4" href="product.html#">4</a>
+												<a class="star-5" href="product.html#">5</a>
+											</span>
 
                                             <select name="rating" id="rating" required="" style="display: none;">
-                                                <option value="">Rate…</option>
-                                                <option value="5">Perfect</option>
-                                                <option value="4">Good</option>
-                                                <option value="3">Average</option>
-                                                <option value="2">Not that bad</option>
-                                                <option value="1">Very poor</option>
-                                            </select>
+												<option value="">Rate…</option>
+												<option value="5">Perfect</option>
+												<option value="4">Good</option>
+												<option value="3">Average</option>
+												<option value="2">Not that bad</option>
+												<option value="1">Very poor</option>
+											</select>
                                         </div>
 
                                         <div class="form-group">
@@ -832,11 +860,10 @@
 
                                             <div class="col-md-12">
                                                 <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input"
-                                                        id="save-name" />
+                                                    <input type="checkbox" class="custom-control-input" id="save-name" />
                                                     <label class="custom-control-label mb-0" for="save-name">Save my
-                                                        name, email, and website in this browser for the next time I
-                                                        comment.</label>
+														name, email, and website in this browser for the next time I
+														comment.</label>
                                                 </div>
                                             </div>
                                         </div>
@@ -861,10 +888,8 @@
                         <div class="product-default">
                             <figure>
                                 <a href="product.html">
-                                    <img src="assets/images/products/product-1.jpg" width="280" height="280"
-                                        alt="product">
-                                    <img src="assets/images/products/product-1-2.jpg" width="280" height="280"
-                                        alt="product">
+                                    <img src="assets/images/products/product-1.jpg" width="280" height="280" alt="product">
+                                    <img src="assets/images/products/product-1-2.jpg" width="280" height="280" alt="product">
                                 </a>
                                 <div class="label-group">
                                     <div class="product-label label-hot">HOT</div>
@@ -894,12 +919,12 @@
                                 <!-- End .price-box -->
                                 <div class="product-action">
                                     <a href="wishlist.html" title="Wishlist" class="btn-icon-wish"><i
-                                            class="icon-heart"></i></a>
+											class="icon-heart"></i></a>
                                     <a href="product.html" class="btn-icon btn-add-cart"><i
-                                            class="fa fa-arrow-right"></i><span>SELECT
-                                            OPTIONS</span></a>
+											class="fa fa-arrow-right"></i><span>SELECT
+											OPTIONS</span></a>
                                     <a href="ajax/product-quick-view.html" class="btn-quickview" title="Quick View"><i
-                                            class="fas fa-external-link-alt"></i></a>
+											class="fas fa-external-link-alt"></i></a>
                                 </div>
                             </div>
                             <!-- End .product-details -->
@@ -908,10 +933,8 @@
                         <div class="product-default">
                             <figure>
                                 <a href="product.html">
-                                    <img src="assets/images/products/product-3.jpg" width="280" height="280"
-                                        alt="product">
-                                    <img src="assets/images/products/product-3-2.jpg" width="280" height="280"
-                                        alt="product">
+                                    <img src="assets/images/products/product-3.jpg" width="280" height="280" alt="product">
+                                    <img src="assets/images/products/product-3-2.jpg" width="280" height="280" alt="product">
                                 </a>
                                 <div class="label-group">
                                     <div class="product-label label-hot">HOT</div>
@@ -941,12 +964,12 @@
                                 <!-- End .price-box -->
                                 <div class="product-action">
                                     <a href="wishlist.html" title="Wishlist" class="btn-icon-wish"><i
-                                            class="icon-heart"></i></a>
+											class="icon-heart"></i></a>
                                     <a href="product.html" class="btn-icon btn-add-cart"><i
-                                            class="fa fa-arrow-right"></i><span>SELECT
-                                            OPTIONS</span></a>
+											class="fa fa-arrow-right"></i><span>SELECT
+											OPTIONS</span></a>
                                     <a href="ajax/product-quick-view.html" class="btn-quickview" title="Quick View"><i
-                                            class="fas fa-external-link-alt"></i></a>
+											class="fas fa-external-link-alt"></i></a>
                                 </div>
                             </div>
                             <!-- End .product-details -->
@@ -955,10 +978,8 @@
                         <div class="product-default">
                             <figure>
                                 <a href="product.html">
-                                    <img src="assets/images/products/product-7.jpg" width="280" height="280"
-                                        alt="product">
-                                    <img src="assets/images/products/product-7-2.jpg" width="280" height="280"
-                                        alt="product">
+                                    <img src="assets/images/products/product-7.jpg" width="280" height="280" alt="product">
+                                    <img src="assets/images/products/product-7-2.jpg" width="280" height="280" alt="product">
                                 </a>
                                 <div class="label-group">
                                     <div class="product-label label-hot">HOT</div>
@@ -988,12 +1009,12 @@
                                 <!-- End .price-box -->
                                 <div class="product-action">
                                     <a href="wishlist.html" title="Wishlist" class="btn-icon-wish"><i
-                                            class="icon-heart"></i></a>
+											class="icon-heart"></i></a>
                                     <a href="product.html" class="btn-icon btn-add-cart"><i
-                                            class="fa fa-arrow-right"></i><span>SELECT
-                                            OPTIONS</span></a>
+											class="fa fa-arrow-right"></i><span>SELECT
+											OPTIONS</span></a>
                                     <a href="ajax/product-quick-view.html" class="btn-quickview" title="Quick View"><i
-                                            class="fas fa-external-link-alt"></i></a>
+											class="fas fa-external-link-alt"></i></a>
                                 </div>
                             </div>
                             <!-- End .product-details -->
@@ -1002,10 +1023,8 @@
                         <div class="product-default">
                             <figure>
                                 <a href="product.html">
-                                    <img src="assets/images/products/product-6.jpg" width="280" height="280"
-                                        alt="product">
-                                    <img src="assets/images/products/product-6-2.jpg" width="280" height="280"
-                                        alt="product">
+                                    <img src="assets/images/products/product-6.jpg" width="280" height="280" alt="product">
+                                    <img src="assets/images/products/product-6-2.jpg" width="280" height="280" alt="product">
                                 </a>
                                 <div class="label-group">
                                     <div class="product-label label-hot">HOT</div>
@@ -1035,12 +1054,12 @@
                                 <!-- End .price-box -->
                                 <div class="product-action">
                                     <a href="wishlist.html" title="Wishlist" class="btn-icon-wish"><i
-                                            class="icon-heart"></i></a>
+											class="icon-heart"></i></a>
                                     <a href="product.html" class="btn-icon btn-add-cart"><i
-                                            class="fa fa-arrow-right"></i><span>SELECT
-                                            OPTIONS</span></a>
+											class="fa fa-arrow-right"></i><span>SELECT
+											OPTIONS</span></a>
                                     <a href="ajax/product-quick-view.html" class="btn-quickview" title="Quick View"><i
-                                            class="fas fa-external-link-alt"></i></a>
+											class="fas fa-external-link-alt"></i></a>
                                 </div>
                             </div>
                             <!-- End .product-details -->
@@ -1049,10 +1068,8 @@
                         <div class="product-default">
                             <figure>
                                 <a href="product.html">
-                                    <img src="assets/images/products/product-4.jpg" width="280" height="280"
-                                        alt="product">
-                                    <img src="assets/images/products/product-4-2.jpg" width="280" height="280"
-                                        alt="product">
+                                    <img src="assets/images/products/product-4.jpg" width="280" height="280" alt="product">
+                                    <img src="assets/images/products/product-4-2.jpg" width="280" height="280" alt="product">
                                 </a>
                                 <div class="label-group">
                                     <div class="product-label label-hot">HOT</div>
@@ -1082,12 +1099,12 @@
                                 <!-- End .price-box -->
                                 <div class="product-action">
                                     <a href="wishlist.html" title="Wishlist" class="btn-icon-wish"><i
-                                            class="icon-heart"></i></a>
+											class="icon-heart"></i></a>
                                     <a href="product.html" class="btn-icon btn-add-cart"><i
-                                            class="fa fa-arrow-right"></i><span>SELECT
-                                            OPTIONS</span></a>
+											class="fa fa-arrow-right"></i><span>SELECT
+											OPTIONS</span></a>
                                     <a href="ajax/product-quick-view.html" class="btn-quickview" title="Quick View"><i
-                                            class="fas fa-external-link-alt"></i></a>
+											class="fas fa-external-link-alt"></i></a>
                                 </div>
                             </div>
                             <!-- End .product-details -->
@@ -1105,10 +1122,8 @@
                         <div class="product-default left-details product-widget">
                             <figure>
                                 <a href="product.html">
-                                    <img src="assets/images/products/small/product-1.jpg" width="74" height="74"
-                                        alt="product">
-                                    <img src="assets/images/products/small/product-1-2.jpg" width="74" height="74"
-                                        alt="product">
+                                    <img src="assets/images/products/small/product-1.jpg" width="74" height="74" alt="product">
+                                    <img src="assets/images/products/small/product-1-2.jpg" width="74" height="74" alt="product">
                                 </a>
                             </figure>
 
@@ -1137,10 +1152,8 @@
                         <div class="product-default left-details product-widget">
                             <figure>
                                 <a href="product.html">
-                                    <img src="assets/images/products/small/product-2.jpg" width="74" height="74"
-                                        alt="product">
-                                    <img src="assets/images/products/small/product-2-2.jpg" width="74" height="74"
-                                        alt="product">
+                                    <img src="assets/images/products/small/product-2.jpg" width="74" height="74" alt="product">
+                                    <img src="assets/images/products/small/product-2-2.jpg" width="74" height="74" alt="product">
                                 </a>
                             </figure>
 
@@ -1168,10 +1181,8 @@
                         <div class="product-default left-details product-widget">
                             <figure>
                                 <a href="product.html">
-                                    <img src="assets/images/products/small/product-3.jpg" width="74" height="74"
-                                        alt="product">
-                                    <img src="assets/images/products/small/product-3-2.jpg" width="74" height="74"
-                                        alt="product">
+                                    <img src="assets/images/products/small/product-3.jpg" width="74" height="74" alt="product">
+                                    <img src="assets/images/products/small/product-3-2.jpg" width="74" height="74" alt="product">
                                 </a>
                             </figure>
 
@@ -1202,10 +1213,8 @@
                         <div class="product-default left-details product-widget">
                             <figure>
                                 <a href="product.html">
-                                    <img src="assets/images/products/small/product-4.jpg" width="74" height="74"
-                                        alt="product">
-                                    <img src="assets/images/products/small/product-4-2.jpg" width="74" height="74"
-                                        alt="product">
+                                    <img src="assets/images/products/small/product-4.jpg" width="74" height="74" alt="product">
+                                    <img src="assets/images/products/small/product-4-2.jpg" width="74" height="74" alt="product">
                                 </a>
                             </figure>
 
@@ -1234,10 +1243,8 @@
                         <div class="product-default left-details product-widget">
                             <figure>
                                 <a href="product.html">
-                                    <img src="assets/images/products/small/product-5.jpg" width="74" height="74"
-                                        alt="product">
-                                    <img src="assets/images/products/small/product-5-2.jpg" width="74" height="74"
-                                        alt="product">
+                                    <img src="assets/images/products/small/product-5.jpg" width="74" height="74" alt="product">
+                                    <img src="assets/images/products/small/product-5-2.jpg" width="74" height="74" alt="product">
                                 </a>
                             </figure>
 
@@ -1265,10 +1272,8 @@
                         <div class="product-default left-details product-widget">
                             <figure>
                                 <a href="product.html">
-                                    <img src="assets/images/products/small/product-6.jpg" width="74" height="74"
-                                        alt="product">
-                                    <img src="assets/images/products/small/product-6-2.jpg" width="74" height="74"
-                                        alt="product">
+                                    <img src="assets/images/products/small/product-6.jpg" width="74" height="74" alt="product">
+                                    <img src="assets/images/products/small/product-6-2.jpg" width="74" height="74" alt="product">
                                 </a>
                             </figure>
 
@@ -1299,10 +1304,8 @@
                         <div class="product-default left-details product-widget">
                             <figure>
                                 <a href="product.html">
-                                    <img src="assets/images/products/small/product-7.jpg" width="74" height="74"
-                                        alt="product">
-                                    <img src="assets/images/products/small/product-7-2.jpg" width="74" height="74"
-                                        alt="product">
+                                    <img src="assets/images/products/small/product-7.jpg" width="74" height="74" alt="product">
+                                    <img src="assets/images/products/small/product-7-2.jpg" width="74" height="74" alt="product">
                                 </a>
                             </figure>
 
@@ -1330,10 +1333,8 @@
                         <div class="product-default left-details product-widget">
                             <figure>
                                 <a href="product.html">
-                                    <img src="assets/images/products/small/product-8.jpg" width="74" height="74"
-                                        alt="product">
-                                    <img src="assets/images/products/small/product-8-2.jpg" width="74" height="74"
-                                        alt="product">
+                                    <img src="assets/images/products/small/product-8.jpg" width="74" height="74" alt="product">
+                                    <img src="assets/images/products/small/product-8-2.jpg" width="74" height="74" alt="product">
                                 </a>
                             </figure>
 
@@ -1362,10 +1363,8 @@
                         <div class="product-default left-details product-widget">
                             <figure>
                                 <a href="product.html">
-                                    <img src="assets/images/products/small/product-9.jpg" width="74" height="74"
-                                        alt="product">
-                                    <img src="assets/images/products/small/product-9-2.jpg" width="74" height="74"
-                                        alt="product">
+                                    <img src="assets/images/products/small/product-9.jpg" width="74" height="74" alt="product">
+                                    <img src="assets/images/products/small/product-9-2.jpg" width="74" height="74" alt="product">
                                 </a>
                             </figure>
 
@@ -1396,10 +1395,8 @@
                         <div class="product-default left-details product-widget">
                             <figure>
                                 <a href="product.html">
-                                    <img src="assets/images/products/small/product-10.jpg" width="74" height="74"
-                                        alt="product">
-                                    <img src="assets/images/products/small/product-10-2.jpg" width="74" height="74"
-                                        alt="product">
+                                    <img src="assets/images/products/small/product-10.jpg" width="74" height="74" alt="product">
+                                    <img src="assets/images/products/small/product-10-2.jpg" width="74" height="74" alt="product">
                                 </a>
                             </figure>
 
@@ -1427,10 +1424,8 @@
                         <div class="product-default left-details product-widget">
                             <figure>
                                 <a href="product.html">
-                                    <img src="assets/images/products/small/product-11.jpg" width="74" height="74"
-                                        alt="product">
-                                    <img src="assets/images/products/small/product-11-2.jpg" width="74" height="74"
-                                        alt="product">
+                                    <img src="assets/images/products/small/product-11.jpg" width="74" height="74" alt="product">
+                                    <img src="assets/images/products/small/product-11-2.jpg" width="74" height="74" alt="product">
                                 </a>
                             </figure>
 
@@ -1458,10 +1453,8 @@
                         <div class="product-default left-details product-widget">
                             <figure>
                                 <a href="product.html">
-                                    <img src="assets/images/products/small/product-12.jpg" width="74" height="74"
-                                        alt="product">
-                                    <img src="assets/images/products/small/product-12-2.jpg" width="74" height="74"
-                                        alt="product">
+                                    <img src="assets/images/products/small/product-12.jpg" width="74" height="74" alt="product">
+                                    <img src="assets/images/products/small/product-12-2.jpg" width="74" height="74" alt="product">
                                 </a>
                             </figure>
 
@@ -1506,26 +1499,19 @@
                                     </li>
                                     <li>
                                         <span class="contact-info-label">Phone:</span><a href="tel:">(123)
-                                            456-7890</a>
+											456-7890</a>
                                     </li>
                                     <li>
-                                        <span class="contact-info-label">Email:</span> <a
-                                            href="https://portotheme.com/cdn-cgi/l/email-protection#b4d9d5ddd8f4d1ccd5d9c4d8d19ad7dbd9"><span
-                                                class="__cf_email__"
-                                                data-cfemail="234e424a4f63465b424e534f460d404c4e">[email&#160;protected]</span></a>
+                                        <span class="contact-info-label">Email:</span> <a href="https://portotheme.com/cdn-cgi/l/email-protection#b4d9d5ddd8f4d1ccd5d9c4d8d19ad7dbd9"><span class="__cf_email__" data-cfemail="234e424a4f63465b424e534f460d404c4e">[email&#160;protected]</span></a>
                                     </li>
                                     <li>
-                                        <span class="contact-info-label">Working Days/Hours:</span> Mon - Sun / 9:00 AM
-                                        - 8:00 PM
+                                        <span class="contact-info-label">Working Days/Hours:</span> Mon - Sun / 9:00 AM - 8:00 PM
                                     </li>
                                 </ul>
                                 <div class="social-icons">
-                                    <a href="product.html#" class="social-icon social-facebook icon-facebook"
-                                        target="_blank" title="Facebook"></a>
-                                    <a href="product.html#" class="social-icon social-twitter icon-twitter"
-                                        target="_blank" title="Twitter"></a>
-                                    <a href="product.html#" class="social-icon social-instagram icon-instagram"
-                                        target="_blank" title="Instagram"></a>
+                                    <a href="product.html#" class="social-icon social-facebook icon-facebook" target="_blank" title="Facebook"></a>
+                                    <a href="product.html#" class="social-icon social-twitter icon-twitter" target="_blank" title="Twitter"></a>
+                                    <a href="product.html#" class="social-icon social-instagram icon-instagram" target="_blank" title="Instagram"></a>
                                 </div>
                                 <!-- End .social-icons -->
                             </div>
@@ -1606,14 +1592,10 @@
 
                         <div class="footer-right ml-auto mt-1 mt-sm-0">
                             <div class="payment-icons">
-                                <span class="payment-icon visa"
-                                    style="background-image: url(assets/images/payments/payment-visa.svg)"></span>
-                                <span class="payment-icon paypal"
-                                    style="background-image: url(assets/images/payments/payment-paypal.svg)"></span>
-                                <span class="payment-icon stripe"
-                                    style="background-image: url(assets/images/payments/payment-stripe.png)"></span>
-                                <span class="payment-icon verisign"
-                                    style="background-image:  url(assets/images/payments/payment-verisign.svg)"></span>
+                                <span class="payment-icon visa" style="background-image: url(assets/images/payments/payment-visa.svg)"></span>
+                                <span class="payment-icon paypal" style="background-image: url(assets/images/payments/payment-paypal.svg)"></span>
+                                <span class="payment-icon stripe" style="background-image: url(assets/images/payments/payment-stripe.png)"></span>
+                                <span class="payment-icon verisign" style="background-image:  url(assets/images/payments/payment-verisign.svg)"></span>
                             </div>
                         </div>
                     </div>
@@ -1649,15 +1631,14 @@
                             <li><a href="category.html">Full Width Banner</a></li>
                             <li><a href="category-banner-boxed-slider.html">Boxed Slider Banner</a></li>
                             <li><a href="category-banner-boxed-image.html">Boxed Image Banner</a></li>
-                            <li><a href="https://portotheme.com/html/porto_ecommerce/category-sidebar-left.html">Left
-                                    Sidebar</a></li>
+                            <li><a href="https://portotheme.com/html/porto_ecommerce/category-sidebar-left.html">Left Sidebar</a></li>
                             <li><a href="category-sidebar-right.html">Right Sidebar</a></li>
                             <li><a href="category-off-canvas.html">Off Canvas Filter</a></li>
                             <li><a href="category-horizontal-filter1.html">Horizontal Filter 1</a></li>
                             <li><a href="category-horizontal-filter2.html">Horizontal Filter 2</a></li>
                             <li><a href="product.html#">List Types</a></li>
                             <li><a href="category-infinite-scroll.html">Ajax Infinite Scroll<span
-                                        class="tip tip-new">New</span></a></li>
+										class="tip tip-new">New</span></a></li>
                             <li><a href="category.html">3 Columns Products</a></li>
                             <li><a href="category-4col.html">4 Columns Products</a></li>
                             <li><a href="category-5col.html">5 Columns Products</a></li>
@@ -1746,14 +1727,14 @@
                 <ul class="mobile-menu mt-2 mb-2">
                     <li class="border-0">
                         <a href="product.html#">
-                            Special Offer!
-                        </a>
+							Special Offer!
+						</a>
                     </li>
                     <li class="border-0">
                         <a href="product.html#" target="_blank">
-                            Buy Porto!
-                            <span class="tip tip-hot">Hot</span>
-                        </a>
+							Buy Porto!
+							<span class="tip tip-hot">Hot</span>
+						</a>
                     </li>
                 </ul>
 
@@ -1810,8 +1791,8 @@
         <div class="sticky-info">
             <a href="cart.html" class="">
                 <i class="icon-shopping-cart position-relative">
-                    <span class="cart-count badge-circle">3</span>
-                </i>Cart
+					<span class="cart-count badge-circle">3</span>
+				</i>Cart
             </a>
         </div>
     </div>
@@ -1819,8 +1800,7 @@
     <a id="scroll-top" href="product.html#top" title="Top" role="button"><i class="icon-angle-up"></i></a>
 
     <!-- Plugins JS File -->
-    <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script src="assets/js/jquery.min.js"></script>
+    <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/plugins.min.js"></script>
 
